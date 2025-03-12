@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fomulário</title>
-    
-    <link rel="stylesheet" href="index.css">
+    <title>Fomulário</title>    
+    <link rel="stylesheet" href="../resources/css/index.css">
 </head>
 <body>
     <div class="box">
-        <form action="resposta.php" method="post">
+        <form action="../public/resposta.php" method="post">
             <fieldset> <legend><b>Formulário</b></legend><br>
                 <div class="inputbox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>
@@ -66,7 +65,7 @@
 
 
         </form>
-        <a href="https://github.com/RosaCL"><img src="costureza.png" alt=""></a>
+        <a href="https://github.com/RosaCL" target="_blank"><img src="../public/img/costureza.png" alt=""></a>
 
     </div>
    
